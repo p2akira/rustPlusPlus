@@ -26,7 +26,7 @@ module.exports = {
     },
     discord: {
         username: process.env.RPP_DISCORD_USERNAME || 'rustPlusPlus',
-        clientId: process.env.CUSTOMCONNSTR_RPP_DISCORD_CLIENT_ID || '',
-        token: process.env.CUSTOMCONNSTR_RPP_DISCORD_TOKEN || ''
+        clientId: process.env.RPP_DISCORD_CLIENT_ID || '',
+        token: process.env.RPP_DISCORD_TOKEN || ''
     }
 };
